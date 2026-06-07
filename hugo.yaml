@@ -31,18 +31,22 @@ params:
 
 menu:
   main:
-    - identifier: posts
-      name: 文章
-      url: /posts/
+    - identifier: life
+      name: 生活
+      url: /tags/生活/
       weight: 10
-    - identifier: tags
-      name: 标签
-      url: /tags/
+    - identifier: investment
+      name: 投资
+      url: /tags/投资/
       weight: 20
+    - identifier: ai
+      name: AI
+      url: /tags/ai/
+      weight: 30
     - identifier: about
       name: 关于
       url: /about/
-      weight: 30
+      weight: 40
 
 markup:
   highlight:
