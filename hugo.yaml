@@ -1,0 +1,50 @@
+baseURL: "https://yuchaoyeah.github.io/"
+locale: "zh-CN"
+title: "黑白的小角落"
+theme: "PaperMod"
+paginate: 8
+
+params:
+  author: "黑白"
+  description: "记录技术与生活的碎片"
+
+  defaultTheme: light
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "Hi，我是黑白"
+    Content: |
+      欢迎来到我的小角落。
+      这里记录一些技术思考和生活碎片。
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/yuchaoyeah"
+
+  cover:
+    linkFullImages: true
+    responsiveImages: false
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 20
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 30
+
+markup:
+  highlight:
+    style: github
+    lineNos: false
